@@ -1,0 +1,5 @@
+#! /usr/bin/env node
+
+const UnUseClass = require('../dist/index').default
+const unUseClass = new UnUseClass();
+unUseClass.run();
