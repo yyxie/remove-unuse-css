@@ -1,0 +1,59 @@
+{
+  "name": "css-unuse",
+  "version": "3.6.9-alpha.9",
+  "description": "cli tool for taro-convert",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run clean && pnpm run prod",
+    "dev": "tsc -w",
+    "prod": "tsc",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro.git"
+  },
+  "bin": {
+    "css-unuse": "bin/css-unuse"
+  },
+  "keywords": [
+    "taro",
+    "weapp"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "author": "O2Team",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/code-frame": "^7.0.0",
+    "@babel/template": "^7.20.0",
+    "@babel/traverse": "^7.20.0",
+    "@babel/types": "^7.20.0",
+    "@tarojs/transformer-wx": "^2.2.10",
+    "babel-core": "^6.26.3",
+    "babel-generator": "^6.26.1",
+    "babel-template": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0",
+    "better-babel-generator": "^6.26.1",
+    "himalaya-wxml": "^1.1.0",
+    "html": "^1.0.0",`
+    "lodash": "^4.17.5",
+    "postcss": "^8.4.27",
+    "postcss-scss": "^4.0.6",
+    "postcss-strip-inline-comments": "^0.1.5",
+    "postcss-taro-unit-transform": "^2.2.10",
+    "prettier": "^2.7.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.14.5",
+    "@types/node": "^20.4.5"
+  }
+}
